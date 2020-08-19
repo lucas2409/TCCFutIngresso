@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            FutIngresso - Seu ingresso rápido e facil
+        </title>
+        
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/camposdeTexto.css" rel="stylesheet">
+        <link href="css/botoes.css" rel="stylesheet">
+        <link href="css/forms.css" rel="stylesheet">
+        <link href="css/tabela.css" rel="stylesheet">
+    </head>
+    <body id="body">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="ListarJogo.html">Comprar Ingressos</a></li>
+                <li><a href="#">Historico de Compra</a></li>
+                <li><a href="sobreFutIngresso.html">Sobre</a></li>
+            </ul>
+            <hr>
+        </nav><br><br><br><br><br>
+        <center>
+        <form>
+            <table>
+                <th align="center"> Nome </th>
+                <th align="center"> E-mail </th>
+                    <tr align="center">
+                        <td>
+                        Teste 1.1 
+                        </td>
+                        <td>
+                            Teste 1.2
+                        </td>
+                    </tr>
+            </table><br>
+            <table>
+                <th align="center"> Codigo </th>
+                <th align="center"> Data do Jogo </th>
+                <th align="center"> Descrição </th>
+                <th align="center"> Local estadio </th>
+                <th align="center"> Quantidade Ingresso </th>
+                <th align="center"> Torcida </th>
+                    <tr align="center">
+                        <td>
+                        Teste 1.1 
+                        </td>
+                        <td>
+                            Teste 1.2
+                        </td>
+                        <td>
+                            Teste 1.3
+                        </td>
+                        <td>
+                            Teste 1.6
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            <select name="torcida">
+                                <option value="Mandante">Mandante</option> 
+                                <option value="Visitante">Visitante</option>
+                              </select>
+                        </td>
+                    </tr>
+            </table>
+        </form>   
+            <form action="compraFinalizada.html" method="POST" >
+                <table align="center">
+                    <th align="center"> Comprar - Cartão </th>
+                    <tr align="center">
+                        <td>
+                            <br>
+                            <a>Titular do Cartão</a>
+                            <input type="text" name="titular" id="titular"><br>
+                        </td>
+                        <td>
+                            <br>
+                            <a>Número do Cartão</a>
+                            <input type="text" name="numero" id="numero"><br>
+                        </td>
+                        <td>
+                            <br>
+                            <a>CVV</a>
+                            <input type="text" name="cvv" id="cvv"><br>
+                        </td>
+                        <td>
+                            <br>
+                            <a>Data de Vencimento Cartão</a>
+                            <input type="text" name="dtvenc" id="dtvenc"><br>
+                        </td>
+                    </tr>
+                </table><br>
+                <button type="submit" class="botao botao-btn-conf" >Confirmar</button><br><br>
+                <button type="submit" class="botao botao-btn-canc" >Cancelar</button><br><br>
+            </form>
+        </center>
+        
+    </body>
+</html>

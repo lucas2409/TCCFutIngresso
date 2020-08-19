@@ -1,0 +1,51 @@
+input[type=text]{   
+    border-radius:1px;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    box-shadow: 1px 1px 2px #D8D8BF;    
+    -moz-box-shadow: 1px 1px 2px #D8D8BF;
+    -webkit-box-shadow: 1px 1px 2px #D8D8BF;
+    background: #ffffff; 
+    border:1px solid #E6E8FA;
+    width:150px;
+    color: #000000;
+}
+input[type=password]{   
+    border-radius:1px;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    box-shadow: 1px 1px 2px #D8D8BF;    
+    -moz-box-shadow: 1px 1px 2px #D8D8BF;
+    -webkit-box-shadow: 1px 1px 2px #D8D8BF;
+    background: #ffffff; 
+    border:1px solid #E6E8FA;
+    width:150px;
+    color: #000000;
+}
+select{   
+    border-radius:1px;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    box-shadow: 1px 1px 2px #D8D8BF;    
+    -moz-box-shadow: 1px 1px 2px #D8D8BF;
+    -webkit-box-shadow: 1px 1px 2px #D8D8BF;
+    background: #ffffff; 
+    border:1px solid #E6E8FA;
+    width:150px;
+    color: #000000;
+}
+#desc{   
+    border-radius:1px;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    box-shadow: 1px 1px 2px #D8D8BF;    
+    -moz-box-shadow: 1px 1px 2px #D8D8BF;
+    -webkit-box-shadow: 1px 1px 2px #D8D8BF;
+    background: #ffffff; 
+    border:1px solid #E6E8FA;
+    width:100%;
+    padding: 0.9%;
+    color: #000000;
+    resize:none;
+    text-align: left;
+}

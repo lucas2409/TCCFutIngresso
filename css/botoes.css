@@ -1,0 +1,35 @@
+.botao{ 
+    color: #FFFFFF;
+    width:200px;
+    padding: 6px 12px;
+    border-radius: 4px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #00FF7F;
+}
+.botao-btn{   
+    background-color: #00FF7F;
+    border-color: #46b8da;
+    color: #fff;
+}
+.botao-btn-info:hover, .botao-btn-info:focus, .botao-btn-info:acitive {
+    background-color: #00FF7F;
+    border-color: #269abc;
+    color: #fff;
+}
+.botao-btn-canc{   
+    background-color: #800000;
+    border-color: #fff;
+    color: #fff;
+}
+.botao-btn-canc:hover, .botao-btn-info:focus, .botao-btn-info:acitive {
+    background-color: #800000;
+    border-color: #fff;
+    color: #fff;
+}
+.botao-conf{
+    background-color: #A9A9A9;
+    border-color: #A9A9A9;
+    color: #fff;
+}
+

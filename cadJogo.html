@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            FutIngresso - Seu ingresso rápido e facil
+        </title>       
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/camposdeTexto.css" rel="stylesheet">
+        <link href="css/botoes.css" rel="stylesheet">
+        <link href="css/forms.css" rel="stylesheet">
+        <script type="text/javascript" src="js/funcoes.js"></script>
+    </head>
+    <body id="body">
+        <nav>
+            <ul class="menu">  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadJogo.html">Cadastrar Jogo</a></li>
+                <li><a href="altjogo.php">Alterar Jogos</a></li>
+                <li><a href="altUser.php">Alterar Usuários</a></li>
+                <li><a href="PainelVendas.php">Vendas</a></li>
+            </ul>
+            <hr>
+        </nav><br><br><br><br><br>
+        <center>
+            <form id="formVendas" method="POST" action="cadJogo.php">
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;
+                                <a>Mandante</a>
+                                <input type="text" name="clubeA" id="clubeA">
+                            </td>
+                            <br><br>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a>Visitante</a>
+                                <input type="text" name="clubeB" id="clubeB">
+                            </td>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;
+                                <a>Estádio</a>
+                                <input type="text" name="estadio" id="estadio">
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                                <a>Ingressos Casa</a>
+                                <input type="text" name="quantCasa" id="quantCasa">
+                            </td>
+                            <td>
+                                <a>Ingressos Vistante</a>
+                                <input type="text" name="quantVisit" id="quantVisit">
+                            </td>
+                            <td>
+                                <a>Data Jogo</a>
+                                <input type="text" name="dtjogo" id="dtjogo">
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <a>Valor Mandante</a>
+                                <input type="text" name="valorMandante" id="valorMandante">
+                            </td>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a>Valor Visitante</a>
+                                <input type="text" name="valorVisitante" id="valorVisitante">
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Descrição:</a>
+                                <textarea name="desc" id="desc"></textarea><br>
+                            </td>   
+                        </tr>
+                    </table><br><br>
+                    
+                    <button type="submit" class="botao botao-btn-info" >Cadastrar</button>&nbsp;
+                    
+                </div>
+            </form>
+            <button type="submit" class="botao botao-btn-canc" onclick="limparCampos();">Limpar</button><br>
+        </center>
+    </body>
+</html>
